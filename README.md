@@ -2,63 +2,50 @@
 
 ## Overview
 
-The purpose of this project is to help the start-up marketing company, BigMarket, to optimize its marketing strategies and efforts through some data analysis. One of its main clients, Sellby, is going to share some valuable products and information on its website, however, they asked us to do an analysis of how its products' reviews compare to other's companies and based on that give new programs and rewards to its customers. 
+The purpose of this project is to help BigMarket, optimize its marketing strategies and efforts through data analysis. One of its main clients, Sellby, is going to share some valuable products and information on its website, however, they asked us to do an analysis of how its products' reviews compare to other's companies and based on that give new programs and rewards to its customers. 
 
-In order to complete this new challenge, Jennifer, an account manager at BigMarket, will be of great support to us by analyzing this data. After some work done, we decided that the best strategy to analyze the extensive amount of data the company has is to use the power of Big Data plus some help from SQL, AWS, and Google Colaboratory. 
+We will complete the analysis by using AWS, Spark, PgAdmin and and more importantly Google Colaboratory. The following are the results of the analys
 
 ## Results
 
-After getting some new results by using Google Colaboration and AWS, we figured out new and surprising results.
-
 1. The total amount of Vine reviews and non-Vine reviews are:
 
-+ Vine Reviews = 613
++ Vine Reviews 9paid program )= 613
+![paid review](https://user-images.githubusercontent.com/115424156/232235500-9f77988b-b771-4c80-a068-2fb1d8fea7dc.png)
 
 
-+ Non-Vine Reviews = 64,968
++ Non-Vine Reviews 9unpaid progarm) = 64,968
 
+![unpaid reviews](https://user-images.githubusercontent.com/115424156/232235716-ac3358c3-b963-45f4-8f99-6fee56e76852.png)
 
 
 2. The total amount of Vine reviews and Non-Vine reviews that got 5 stars are:
 
 + Vine Reviews 5 Stars = 222
 
+![5 stars paid review](https://user-images.githubusercontent.com/115424156/232236147-6f8f394d-dc78-4a4c-be1b-01cca07068c8.png)
 
 + Non-Vine Reviews 5 Stars = 30,543
 
+![5 -star unpaid](https://user-images.githubusercontent.com/115424156/232236722-ee04193d-820a-4bf8-86e6-02b06b414a11.png)
 
 
 3. The total percentage of Vine and Non-Vine reviews that got 5 stars are:
 
-+ Percentage of Vine Reviews 5 Stars = 0.36215
 
++ Percentage of Vine Reviews 5 Stars = 36.2%
 
-+ Percentage of Non-Vine Reviews 5 Stars = 0.47012
+![perecentage of paid 5 star review](https://user-images.githubusercontent.com/115424156/232237059-6fbcf061-5368-416d-9e95-a584417ca3d4.png)
 
++ Percentage of Non-Vine Reviews 5 Stars = 47.0%
+
+![percentage of 5 star unpaid](https://user-images.githubusercontent.com/115424156/232237120-c53ec114-17f9-4155-a431-4b05f061c3ae.png)
 
 
 ## Summary
 
-Due to the help of AWS, PgAdmin, Google Colaboration, and Big Data, we were able to show BigMarket the results of our analysis so he can take further action according to this. In addition, one last analysis that we took into consideration is to show the company that there is no more positive bias for reviews since there is a great difference between Vine and Non-Vine total reviews.
+There is a larger pool of participants in the non-paid program which will make their opinion more credible than the that of the vine program, which indirectly can be viewed as seller of reviews. the paid program also tends to give lower 5-star rating (36%) compared to non-vine reviewer (47%). Although i dont want to overreach based on this one set of data, but it seems vine program members are hesitant to give 5 star rating as if they were afraid to be positive raters since they are paid to give that review. 
+From the results, there is appears to be a bias in the review with the vine program. 
 
-
-
-
-
-How many Vine reviews and non-Vine reviews were there?
-From the vine table extracted from database, the total number of Vine reviews are 1,747 and the total number of non-Vine reviews are 959,125.
-
-How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-Among 1,747 Vine review, the five star Vine reviews are 605. Among the non-Vine reviews, 571,022 non-Vine reviews are five stars.
-
-What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
-0.35 of Vine reviews were five stars. 0.60 of non-Vine reviews were five stars.
-
-Summary
-Conclusion
-From the results show above, there is obvious bias between the reviews in the Vine program and the review not in the Vine program. the percentage of 5 stars from Vine program is lower than that from non_Vine program. Therefore, Vine members are more likely not to give favorable reviews than non-Vine members.
-
-Additional analysises
-We can make analysis of the number and the percentage of reviews from the Vine and non-Vine members in the total five star reviews.
-
-Besides, line chart the rating of both Vine members and non-Vine members can be depicted by using the review stars as x-axis and the number of reviews as y-axis.
+To validate these findings, I would conduct another review based 1/ another category of items or 2/ ask for reviews but without the reviewer being in either group. Basically, the reviewer might be paid or not be paid after their review. 
+This, i believe will help get a better reading on the level of bias or the authenticity of the review. 
