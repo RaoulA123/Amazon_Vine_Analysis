@@ -11,6 +11,7 @@ We will complete the analysis by using AWS, Spark, PgAdmin and and more importan
 1. The total amount of Vine reviews and non-Vine reviews are:
 
 + Vine Reviews 9paid program )= 613
+
 ![paid review](https://user-images.githubusercontent.com/115424156/232235500-9f77988b-b771-4c80-a068-2fb1d8fea7dc.png)
 
 
@@ -44,8 +45,8 @@ We will complete the analysis by using AWS, Spark, PgAdmin and and more importan
 
 ## Summary
 
-There is a larger pool of participants in the non-paid program which will make their opinion more credible than the that of the vine program, which indirectly can be viewed as seller of reviews. the paid program also tends to give lower 5-star rating (36%) compared to non-vine reviewer (47%). Although i dont want to overreach based on this one set of data, but it seems vine program members are hesitant to give 5 star rating as if they were afraid to be positive raters since they are paid to give that review. 
-From the results, there is appears to be a bias in the review with the vine program. 
+There is a larger pool of participants in the non-paid program which will make their opinion more credible than that of the vine program, which indirectly can be viewed as seller of reviews. The paid program also tends to give lower 5-star rating (36%) compared to non-vine reviewer (47%). Although I don't want to overread based on this one set of data, it seems vine program members are hesitant to give 5-star rating as if they were afraid to be positive raters since they are paid for their  review. 
+From the results, there appears to be a bias, implied or explicit, in the review with the vine program members. 
 
-To validate these findings, I would conduct another review based 1/ another category of items or 2/ ask for reviews but without the reviewer being in either group. Basically, the reviewer might be paid or not be paid after their review. 
-This, i believe will help get a better reading on the level of bias or the authenticity of the review. 
+To validate these findings, I would conduct another review based 1/ another category of items or 2/ ask for reviews but without the reviewer being in either group. Basically, the reviewer might be paid or might not be paid after their review. This, i believe will help get a better reading on the level of bias or the authenticity of the review. 
+
