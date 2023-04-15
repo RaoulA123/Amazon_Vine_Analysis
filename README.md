@@ -1,7 +1,5 @@
 # Amazon_Vine_Analysis
 
-# Amazon_Vine_Analysis_Project
-
 ## Overview
 
 The purpose of this project is to help the start-up marketing company, BigMarket, to optimize its marketing strategies and efforts through some data analysis. One of its main clients, Sellby, is going to share some valuable products and information on its website, however, they asked us to do an analysis of how its products' reviews compare to other's companies and based on that give new programs and rewards to its customers. 
